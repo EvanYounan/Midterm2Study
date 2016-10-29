@@ -52,12 +52,14 @@ public class NumberGrade {
 				//REMEMBER THAT THE LINE BELOW WILL ONLY RUN IF THE LINE ABOVE DOESN'T THROW
 				//AN InvalidNumberGrade exception.
 				
+				System.out.println();
+				System.out.println("This grade translates into a gpa of: " + x.calculateGPA());
 				created = true;
+				
 			} catch (InvalidNumberGrade e) {
 				System.out.println(e.getMessage());
 			}
 		}
-		System.out.println("The grade entered was valid!");
 	}
 
 }
