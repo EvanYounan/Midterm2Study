@@ -6,7 +6,7 @@ public class personSimulator {
 	public static void main(String[] args) {
 		IPerson x = new Officer("Jenkins", 50000.00, 2132312, 343545232, "118 Grand Valley Blvd");
 		
-		//I TOLD YOU 2 CLASSES AN IMPLEMENT 1 INTERFACE
+		//I TOLD YOU 2 CLASSES AN IMPLEMENT 1 INTERFACE ay
 		//THIS IS CLASS NUMBER 1: PERSON2
 		IPerson y = new Person2("Harks", 50000.00, 5424524, 435703146, "119 Grand Valley Blvd", "232-434-654");
 		//THIS IS CLASS NUMBER 2: PERSON
